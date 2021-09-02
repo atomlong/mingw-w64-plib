@@ -8,7 +8,7 @@ url="http://plib.sourceforge.net/"
 license=('custom:LGPL')
 makedepends=('mingw-w64-configure')
 depends=('mingw-w64-crt')
-source=("http://plib.sourceforge.net/dist/$pkgname-$pkgver.tar.gz")
+source=("http://plib.sourceforge.net/dist/plib-${pkgver}.tar.gz")
 options=('staticlibs' '!strip' '!buildflags')
 sha256sums=('485b22bf6fdc0da067e34ead5e26f002b76326f6371e2ae006415dea6a380a32')
 
